@@ -1,0 +1,35 @@
+.body{
+    box-sizing: border-box;
+}
+.grid{
+    height: 95vh;
+    overflow-y: scroll;
+display: grid;
+grid-template-columns: 1fr 2fr 3fr;
+border: 1px solid lightgray;
+border-left: 1px solid lightgray;
+gap: 10px;
+padding: 10px 5px;
+align-items: start;
+border-radius: 6px;
+width: 1360px;
+margin-top: 10px;
+margin: 20px auto;
+}
+.grid-rows{
+    display: grid;
+    grid-template-rows: 5fr 4fr;
+   
+    width: 100%;
+     border-bottom: 1px solid lightgray;
+}
+.grid::-webkit-scrollbar{
+    display: none;
+}
+ /* .over{
+    
+    overflow-y: scroll;
+ } */
+ /* .over::-webkit-scrollbar{
+    display: none;
+ } */
